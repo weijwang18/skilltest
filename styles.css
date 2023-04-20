@@ -1,0 +1,36 @@
+.section1 {
+  background: url(images/LaBanner.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+}
+
+.logo {
+  position: absolute !important;
+  left: 23%;
+  top: 0.5rem;
+}
+
+a:visited {
+  color: white;
+}
+
+a:link{
+  color:white;
+}
+
+.navbar {
+  position: absolute !important;
+  top: 0.5rem;
+  right: 16%;
+}
+
+.navbar-link {
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  display: inline-block;
+  justify-content: space-evenly;
+  margin: 0 1.5rem;
+  text-decoration: underline;
+}
