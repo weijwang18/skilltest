@@ -1,4 +1,4 @@
-.section1 {
+.first-section {
   background: url(images/LaBanner.png) no-repeat;
   background-size: cover;
   height: 100vh;
@@ -11,12 +11,18 @@
   top: 0.5rem;
 }
 
+.logowithMountains {
+  position: absolute;
+  left: 23%;
+  margin: 0.5rem;
+}
+
 a:visited {
   color: white;
 }
 
-a:link{
-  color:white;
+a:link {
+  color: white;
 }
 
 .navbar {
@@ -25,7 +31,7 @@ a:link{
   right: 16%;
 }
 
-.navbar-link {
+.navbar-link1 {
   font-size: 1rem;
   font-weight: bold;
   font-style: italic;
@@ -33,4 +39,36 @@ a:link{
   justify-content: space-evenly;
   margin: 0 1.5rem;
   text-decoration: underline;
+}
+
+.sticky-navbar {
+  background-color: white;
+  height: 7vh;
+  display: flex;
+}
+
+.navbar2 {
+  position: absolute;
+  left: 70%;
+  margin: 1rem;
+}
+
+.navbar-link2 {
+  color: black !important;
+  font-size: 1rem;
+  font-weight: bold;
+  font-style: italic;
+  display: inline-block;
+  justify-content: space-evenly;
+  margin: 0 1.5rem;
+  text-decoration: underline;
+}
+
+.second-section {
+  background: url(images/Bg.png) no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: auto;
+  display: flex;
+  flex-direction: column;
 }
