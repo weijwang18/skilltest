@@ -176,10 +176,61 @@ a:link {
   background: #707070;
 }
 
-
 .third-section {
   background: url(images/tab1.png) no-repeat;
   background-size: cover;
   height: 100vh;
   width: auto;
+}
+
+.climb {
+  background-color: white;
+  height: 19vh;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.climbtitle {
+  position: absolute;
+  left: 20%;
+  top: 4rem;
+}
+
+.climbtext {
+  position: absolute;
+  top: 6rem;
+  right: 16%;
+  width: 40%;
+  font-size: 15px;
+}
+
+.tabbar {
+  background-color: rgba(65, 79, 107, 0.85);
+  height: 4vh;
+  display: flex;
+  width: 100%;
+  position: relative;
+}
+
+.mountain1 {
+  font-size: 22px;
+  padding: 4px;
+  font-weight: bold;
+  margin-left: 20%;
+}
+
+.mountain2 {
+  font-size: 22px;
+  padding: 4px;
+  font-weight: bold;
+}
+
+.tabbar .active {
+  background-color: grey;
+}
+
+.schedule {
+  margin-left: 25%;
+  margin-top: 15%;
 }
