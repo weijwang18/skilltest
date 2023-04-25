@@ -177,7 +177,6 @@ a:link {
 }
 
 .third-section {
-  background: url(images/tab1.png) no-repeat;
   background-size: cover;
   height: 100vh;
   width: auto;
@@ -205,14 +204,6 @@ a:link {
   font-size: 15px;
 }
 
-.tabbar {
-  background-color: rgba(65, 79, 107, 0.85);
-  height: 4vh;
-  display: flex;
-  width: 100%;
-  position: relative;
-}
-
 .mountain1 {
   font-size: 22px;
   padding: 4px;
@@ -226,11 +217,84 @@ a:link {
   font-weight: bold;
 }
 
-.tabbar .active {
-  background-color: grey;
-}
-
 .schedule {
   margin-left: 25%;
   margin-top: 15%;
+}
+
+.schedule-container {
+  height: 80vh;
+}
+
+.tab-bg1 {
+  background: url("/images/tab1.png") no-repeat;
+  background-size: cover;
+  height: 80%;
+  position: relative;
+  background-position: bottom;
+}
+
+.tab-bg2 {
+  background: url("/images/tab2.png") no-repeat;
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  background-position: bottom;
+}
+
+.tab-container {
+  background-color: rgba(65, 79, 107, 0.85);
+}
+
+.nav-tabs .nav-link {
+  font-size: 2rem;
+  text-transform: uppercase;
+  font-weight: bold;
+  position: relative;
+  left: 138%;
+  color: rgb(175, 182, 197);
+  letter-spacing: -0.1rem;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: var(--primary-color);
+  background-color: rgb(175, 182, 197) !important;
+  border-color: var(--primary-color) !important;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 1px;
+  letter-spacing: -0.1rem;
+  border-bottom: none;
+  border-top: none;
+}
+
+.footer {
+  background-color: rgba(65, 79, 107, 0.85);
+  display: flex;
+  height: 15vh;
+}
+
+.footer {
+  height: 8rem;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  background-color: var(--primary-color);
+  display: flex;
+}
+
+.footer-logo {
+  position: absolute;
+  align-self: center;
+  display: flex;
+  width: 18rem;
+  height: 5rem;
+  left: 16%;
+}
+
+.copy {
+  position: absolute;
+  right: 16%;
+  align-self: center;
 }
